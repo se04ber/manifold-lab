@@ -24,7 +24,13 @@ export SimulationParameters,
 	InitialState,
 	Trajectory,
 	EffectiveField,
-	ReferenceScenario
+	ReferenceScenario,
+	fiber_period,
+	effective_field,
+	kk_mass,
+	effective_charge,
+	kk_spectrum,
+	geodesic
 
 "Everything a UI control panel can vary; the single source of truth for one experiment's state."
 struct SimulationParameters
@@ -82,5 +88,10 @@ struct ReferenceScenario
 	name::String
 	params::SimulationParameters
 end
+
+include("Geometry.jl")
+include("KaluzaKlein.jl")
+include("Spectra.jl")
+include("Geodesics.jl")
 
 end # module ManifoldLab
