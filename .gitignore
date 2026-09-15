@@ -1,0 +1,19 @@
+# Node / SvelteKit
+web/node_modules/
+web/.svelte-kit/
+web/build/
+web/.env
+web/.env.*
+!web/.env.example
+web/test-results/
+web/playwright-report/
+web/blob-report/
+
+# Julia
+physics/*.jl.cov
+physics/*.jl.*.cov
+physics/*.jl.mem
+
+# OS / editor
+.DS_Store
+*.swp

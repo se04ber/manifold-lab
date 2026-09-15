@@ -1,0 +1,14 @@
+name = "ManifoldLab"
+uuid = "66bc9d9d-0285-4abb-bc99-214eb3a5b9f3"
+version = "0.1.0"
+authors = ["Sabrina <sabrina.ebert@studium.uni-hamburg.de>"]
+
+[deps]
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+
+[compat]
+GLMakie = "0.13.14"
+JSON = "1.8.0"
+OrdinaryDiffEq = "7.8.1"
