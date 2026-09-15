@@ -20,7 +20,7 @@
 		{
 			title: '04 · Kaluza–Klein Tower',
 			description: 'The discrete mass spectrum from quantized fiber momentum.',
-			href: undefined
+			href: resolve('/lab/kk-spectrum')
 		}
 	];
 </script>
