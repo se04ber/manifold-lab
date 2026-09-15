@@ -10,7 +10,7 @@
 		{
 			title: '02 · Geometry → Gauge Field',
 			description: 'How off-diagonal metric components become a gauge field.',
-			href: undefined
+			href: resolve('/lab/geometry-to-gauge')
 		},
 		{
 			title: '03 · Momentum → Effective Charge',
