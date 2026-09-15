@@ -28,6 +28,17 @@ reference fixtures; the deployed app only ever runs the TypeScript
 `PhysicsEngine`, checked against those fixtures. Visitors never download
 Julia, and GitHub Pages needs no server.
 
+## Experiments
+
+1. **Compact Dimension** — an S¹ fiber at every point of a lower-dimensional
+   base; drag the radius R.
+2. **Geometry → Gauge Field** — how the metric's off-diagonal components
+   g<sub>μ5</sub> become an effective gauge field A<sub>μ</sub>.
+3. **Momentum → Effective Charge** — momentum along the hidden dimension
+   (p₅) looks like electric charge; the MVP centerpiece.
+4. **Kaluza–Klein Tower** — the discrete mass spectrum m<sub>n</sub> from
+   quantized fiber momentum.
+
 ## Repository layout
 
 ```text
@@ -53,6 +64,6 @@ julia --project=physics test/runtests.jl
 
 ## Status
 
-Early build-out, following an internal implementation plan milestone by
-milestone (bootstrap → shared physics contract → reference model →
-fixtures → experiments 01–04). Not yet deployed.
+All four experiments are built and pass their Julia/TypeScript parity
+tests. Not yet deployed to GitHub Pages, and the README doesn't have its
+animated demo yet — both are the last steps before the first release.
