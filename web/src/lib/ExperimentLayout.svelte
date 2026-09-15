@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
+	import { resolve } from '$app/paths';
 
 	type Tab = 'intuition' | 'mathematics' | 'details';
 
@@ -28,7 +29,7 @@
 
 <div class="experiment">
 	<header>
-		<span class="brand">Manifold Lab</span>
+		<a class="brand" href={resolve('/lab')}>Manifold Lab</a>
 		<h1>{title}</h1>
 	</header>
 
@@ -129,6 +130,11 @@
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
 		color: var(--ml-text-muted);
+		text-decoration: none;
+	}
+
+	.brand:hover {
+		color: var(--ml-accent);
 	}
 
 	header h1 {
