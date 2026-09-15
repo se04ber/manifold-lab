@@ -15,7 +15,7 @@
 		{
 			title: '03 · Momentum → Effective Charge',
 			description: 'Momentum along the hidden dimension looks like electric charge.',
-			href: undefined
+			href: resolve('/lab/momentum-to-charge')
 		},
 		{
 			title: '04 · Kaluza–Klein Tower',
